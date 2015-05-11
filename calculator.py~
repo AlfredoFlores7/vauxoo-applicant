@@ -25,4 +25,7 @@ class CalculatorClass(object):
 	for i in self.lista:
            self.suma+= i
         print "La Suma De Los Datos Es:",self.suma
-
+ 
+obj = Lista()
+obj.llenarlista()
+obj.sumar()
